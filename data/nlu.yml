@@ -1,0 +1,134 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - xin chào
+    - chào buổi sáng
+    - chào buổi tối
+    - chào bạn
+    - let's go
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - chào tạm biệt
+    - tạm biệt bạn
+    - good night
+    - bye
+    - cảm ơn
+    - thanks
+    - thank you
+    - cảm ơn bạn
+    - see you later
+
+- intent: affirm
+  examples: |
+    - vâng
+    - y
+    - yes
+    - of course
+    - that sounds good
+    - correct
+    - tất nhiên rồi
+    - đúng vậy
+
+- intent: deny
+  examples: |
+    - không
+    - không bao giờ
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - tôi không nghĩ thế
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - Bạn là bot phải không?
+    - Bạn là ai?
+
+- intent: book_ticket
+  examples: |
+    - I want to book a ticket
+    - Book a bus ticket for me
+    - How can I book a ticket
+    - Tôi cần mua vé xe
+    - Tôi muốn mua vé xe
+    - Vé xe
+    - Cần vé xe
+    - Tôi cần mua vé
+
+- intent: ask_price
+  examples: |
+    - How much is it
+    - Vé giá bao nhiêu
+    - Giá vé là bao nhiêu
+    - Giá vé
+    - Tôi cần biết giá vé
+
+- intent: contact_ad
+  examples: |
+    - How to contact
+    - Liên hệ nhà xe
+    - Sdt nhà xe
+    - Cách liên hệ nhà xe
+    - Phương thức liên hệ
+    - Tôi cần liên hệ với nhà xe
+
+- intent: search
+  examples: |
+    - Tôi cần lịch trình di chuyển
+    - Lịch trình của chuyến xe
+    - Xem lịch trình di chuyển
+    - Lịch trình
+
+- intent: pay
+  examples: |
+    - Làm thế nào để thanh toán
+    - Thanh toán vé
+    - Thanh toán như thế nào
+    - Cách thanh toán
+    - Phương thức thanh toán
+    - thanh toán
+
+- intent: sale
+  examples: |
+    - Các chương trình khuyến mãi
+    - Chương trình khuyến mãi
+    - Ưu đãi
+    - Khuyến mãi đặt vé
+    - ưu đãi đặt vé
+
+- intent: help
+  examples: |
+    - Tôi cần hủy vé
+    - Hủy vé như thế nào
+    - Hủy vé
+    - Chính sách hủy vé
+    - Tôi muốn đổi chỗ
+    - Đổi chỗ
+    - Muốn đổi chỗ ngồi
+    - hủy vé và đổi chỗ như thế nào
+    - hủy vé và đổi chỗ
+
+- intent: rate
+  examples: |
+    - Làm sao để đánh giá chuyến đi
+    - Đánh giá chuyến đi
+    - Cần đánh giá
+    - Đánh giá
+
+
+

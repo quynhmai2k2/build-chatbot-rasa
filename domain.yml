@@ -1,0 +1,60 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - book_ticket
+  - ask_price
+  - contact_ad
+  - search
+  - pay
+  - sale
+  - help
+  - rate
+  
+
+responses:
+  utter_greet:
+  - text: "Xin chào. Tôi có thế giúp gì cho bạn?"
+
+  utter_did_that_help:
+  - text: "Nó có giúp ích cho bạn không?"
+
+  utter_goodbye:
+  - text: "Cần tôi giúp đỡ hãy nhắn cho tôi. Chào tạm biệt bạn."
+
+  utter_iamabot:
+  - text: "Tôi là một bot, phát triển bởi Rasa."
+
+  utter_book_ticket:
+  - text: "Đặt một vé xe cho bạn. Vui lòng đợi một chút."
+
+  utter_ask_price:
+  - text: "Giá vé sẽ được ghi trên từng chuyến đi. Bạn cần chọn chuyến đi phù hợp, giá vé sẽ hiển thị ở góc dưới bên phải của vé."
+
+  utter_contact_ad:
+  - text: "Bạn tìm kiếm tên nhà xe ở thanh tìm kiếm, phần thông tin liên hệ sẽ hiển thị cho mỗi nhà xe tương ứng ở cuối trang."
+
+  utter_search:
+  - text: "Bạn cần chọn ngày tháng và nhà xe hoặc nơi đi nơi đến để hiển thị lịch trình chuyến đi."
+  
+  utter_pay:
+  - text: "Có nhiều phương thức thanh toán khác nhau. Sau khi bạn chọn vé mà bạn muốn mua và điền đầy đủ thông tin, hãy chọn phương thức phù hợp để thanh toán. Các ví điện tử và thẻ ngân hàng để thanh toán online hoặc thanh toán trực tiếp tại nhà xe trong vòng 48h."
+
+  utter_sale:
+  - text: "Các chương trình khuyến mãi ưu đãi sẽ giành cho các khách hàng có tài khoản. Ưu đãi đặt vé khứ hồi giảm 10% sẽ được áp dụng trong tất cả các lần đặt. Các ưu đãi khác sẽ tùy thuộc vào từng nhà xe."
+
+  utter_help:
+  - text: "Chính sách hủy vé và đổi chỗ được hướng dẫn chi tiết ở cuối mục vé đã đặt. Bạn truy cập vào mục vé đã đặt và xem chính sách ở cuối trang. Nếu có gì không hài lòng hãy gọi hotline 19001234"
+
+  utter_rate:
+  - text: "Sau mỗi chuyến đi hoàn thành bạn sẽ nhận được thông báo đánh giá ở phần đánh giá. Chọn mục thông báo để vào trang đánh giá chuyến đi. Nếu có gì không hài lòng hãy gọi hotline 19001234."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,143 @@
+version: "3.1"
+
+stories:
+
+
+- story: book ticket path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_ticket
+  - action: utter_book_ticket
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: book ticket path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_ticket
+  - action: utter_book_ticket
+  - intent: ask_price
+  - action: utter_ask_price
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: book ticket path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_ticket
+  - action: utter_book_ticket
+  - intent: ask_price
+  - action: utter_ask_price
+  - intent: pay
+  - action: utter_pay
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: ask price
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_price
+  - action: utter_ask_price
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: contact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contact_ad
+  - action: utter_contact_ad
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: contact 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contact_ad
+  - action: utter_contact_ad
+  - intent: help
+  - action: utter_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: search
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search
+  - action: utter_search
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: pay
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pay
+  - action: utter_pay
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: sale
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sale
+  - action: utter_sale
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: help
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help
+  - action: utter_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+- story: kethop
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_ticket
+  - action: utter_book_ticket
+  - intent: pay
+  - action: utter_pay
+  - intent: help
+  - action: utter_help
+  - intent: contact_ad
+  - action: utter_contact_ad
+  - intent: sale
+  - action: utter_sale
+  - intent: search
+  - action: utter_search
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: rate
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rate
+  - action: utter_rate
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: rate 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help
+  - action: utter_help
+  - intent: rate
+  - action: utter_rate
+  - intent: goodbye
+  - action: utter_goodbye
